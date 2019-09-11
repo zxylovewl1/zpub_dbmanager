@@ -1,6 +1,8 @@
-import 'package:zmoa/com/zerogis/zmoa/bean/common/Syscfg.dart';
-import 'package:zmoa/com/zerogis/zmoa/engine/manager/SysCfgManagerConstant.dart';
-import 'package:zmoa/com/zerogis/zmoa/method/InitSvrMethod.dart';
+
+import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/bean/Syscfg.dart';
+import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/method/InitSvrMethod.dart';
+
+import 'SysCfgManagerConstant.dart';
 
 /**
  * 类描述：整个应用程序的SysCfg的管理类：主要针对SysCfg做方法的封装
