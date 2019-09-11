@@ -15,6 +15,9 @@ dependencies:
   zpub_third:
      git:
        url: git://github.com/zxylovewl1/zpub_third.git
+  zpub_third_shard:
+     git:
+       url: git://github.com/zxylovewl1/zpub_third_shard.git
 
 dev_dependencies:
   flutter_test:

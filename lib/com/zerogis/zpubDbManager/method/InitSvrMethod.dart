@@ -8,6 +8,7 @@ import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/bean/Plugin.dart';
 import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/bean/Syscfg.dart';
 import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/bean/Widgets.dart';
 import 'package:zpub_third/zpub_third.dart';
+import 'package:zpub_third_shard/zpub_third_shard.dart';
 
 /*
  * 类描述：程序初始化相关方法封装

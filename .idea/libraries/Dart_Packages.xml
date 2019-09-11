@@ -198,11 +198,19 @@
             </list>
           </value>
         </entry>
+        <entry key="zpub_third_shard">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/git/zpub_third_shard-9b0477533f443bfaea32cf0975586a891905213d/lib" />
+            </list>
+          </value>
+        </entry>
       </option>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/git/zpub_bas-fc79c7c96eaa18879081c82610e05dd07d6c8af9/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/git/zpub_third-99c95ba19e8215b7f4e583798d301a34979e0c34/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/git/zpub_third_shard-9b0477533f443bfaea32cf0975586a891905213d/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/hosted/pub.flutter-io.cn/async-2.2.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/hosted/pub.flutter-io.cn/boolean_selector-1.0.4/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../Android/env/flutter/.pub-cache/hosted/pub.flutter-io.cn/charcode-1.1.2/lib" />
