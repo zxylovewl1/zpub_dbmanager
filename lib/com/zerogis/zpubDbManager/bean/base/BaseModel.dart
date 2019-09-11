@@ -1,3 +1,5 @@
+import 'package:zpub_third/com/zerogis/zpubthird/sqlite/bean/DBModel.dart';
+
 /*
  * 类描述：模型基类
  * 作者：郑朝军 on 2018/5/14
@@ -6,13 +8,8 @@
  * 修改人：郑朝军 on 2019/4/14
  * 修改备注：
  */
-abstract class BaseModel
+abstract class BaseModel extends DBModel
 {
-  /*
-   * 用户ID
-   */
-  int id;
-
   /*
    * 用户ID
    */
@@ -50,6 +47,4 @@ abstract class BaseModel
   {
     return id;
   }
-
-  Map<String, dynamic> toJson();
 }
