@@ -1,3 +1,4 @@
+import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/bean/FldValue.dart';
 
 /*
  * 类描述：整个应用程序的fldvalue的管理类：主要针对fldvalue做方法的封装
@@ -7,8 +8,6 @@
  * 修改人：郑朝军 on 2019/5/10
  * 修改备注：
  */
-import 'package:zpub_dbmanager/com/zerogis/zpubDbManager/bean/FldValue.dart';
-
 abstract class FldValuesManagerConstant
 {
   /*

@@ -1,4 +1,4 @@
-import 'package:zpub_third/com/zerogis/zpubthird/sqlite/bean/DBModel.dart';
+import 'package:zpub_sqflite/zpub_sqflite.dart';
 
 /*
  * 类描述：模型基类

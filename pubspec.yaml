@@ -12,9 +12,12 @@ dependencies:
     sdk: flutter
   #第三方插件
   json_annotation: ^2.1.0
-  zpub_third:
+  zpub_bas:
+       git:
+         url: git://github.com/zxylovewl1/zpub_bas.git
+  zpub_sqflite:
      git:
-       url: git://github.com/zxylovewl1/zpub_third.git
+       url: git://github.com/zxylovewl1/zpub_sqflite.git
   zpub_third_shard:
      git:
        url: git://github.com/zxylovewl1/zpub_third_shard.git
