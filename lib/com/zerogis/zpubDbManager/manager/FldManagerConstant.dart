@@ -27,6 +27,14 @@ abstract class FldManagerConstant
   List<Fld> queryFldListSortDisporder(String tabName);
 
   /*
+   * 查询fld表中符合表名的记录并且根据disporder排序好,并且深度拷贝
+   *
+   * @param tabName 表名
+   * @return 符合表名的集合
+   */
+  List<Fld> queryFldDispDep(String tabName);
+
+  /*
    * 查询fld表中符合表名的记录
    *
    * @param tabName 表名

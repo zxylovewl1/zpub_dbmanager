@@ -12,7 +12,8 @@ import 'FldManagerConstant.dart';
  * 修改人：郑朝军 on 2019/5/10
  * 修改备注：
  */
-class FldManager implements FldManagerConstant 
+class FldManager
+    implements FldManagerConstant
 {
   static FldManager mInstance;
 
@@ -36,7 +37,8 @@ class FldManager implements FldManagerConstant
   List<Fld> queryFldList(String tabName)
   {
     List<Fld> result = <Fld>[];
-    _mFld.forEach((fld) {
+    _mFld.forEach((fld)
+    {
       if (fld.getTabname() == tabName)
       {
         result.add(fld);
@@ -50,23 +52,47 @@ class FldManager implements FldManagerConstant
   {
     List<Fld> result = <Fld>[];
 
-    _mFld.forEach((fld) {
+    _mFld.forEach((fld)
+    {
       if (fld.getTabname() == tabName)
       {
         result.add(fld);
       }
     });
 
-    result.sort((Fld a, Fld b) {
+    result.sort((Fld a, Fld b)
+    {
       return a.getDisporder().compareTo(b.getDisporder());
     });
 
     return result;
   }
 
+  List<Fld> queryFldDispDep(String tabName)
+  {
+    List<Fld> result = [];
+
+    _mFld.forEach((fld)
+    {
+      if (fld.getTabname() == tabName)
+      {
+        result.add(Fld.fromJson(fld.toJson()));
+      }
+    });
+
+    result.sort((Fld a, Fld b)
+    {
+      return a.getDisporder().compareTo(b.getDisporder());
+    });
+
+    return result;
+  }
+
+
   void queryFldListWith(String tabName, List<Fld> result)
   {
-    _mFld.forEach((fld) {
+    _mFld.forEach((fld)
+    {
       if (fld.getTabname() == tabName)
       {
         result.add(fld);
@@ -77,7 +103,8 @@ class FldManager implements FldManagerConstant
   List<String> queryFldColNameList(String tabName)
   {
     List<String> result = <String>[];
-    _mFld.forEach((fld) {
+    _mFld.forEach((fld)
+    {
       if (fld.getTabname() == tabName)
       {
         result.add(fld.getColname());
@@ -89,7 +116,8 @@ class FldManager implements FldManagerConstant
   List<Fld> queryIsMcardFldList(String tabName)
   {
     List<Fld> result = <Fld>[];
-    _mFld.forEach((fld) {
+    _mFld.forEach((fld)
+    {
       if (fld.getTabname() == tabName && fld.getIsmcard() == DigitValueConstant.APP_DIGIT_VALUE_1)
       {
         result.add(fld);
